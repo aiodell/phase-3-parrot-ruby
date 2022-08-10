@@ -1,2 +1,8 @@
 # Create method `parrot` that outputs a given phrase and
-# returns the phrase
+
+# output squawk to terminal without any arguments
+def parrot(phrase = "Squawk!")
+    puts phrase
+    return phrase
+end
+
